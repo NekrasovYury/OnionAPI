@@ -10,7 +10,7 @@ using Unity.Lifetime;
 
 namespace DI.Models
 {
-    public class InfastructureModule : IModule
+    public class InfrastructureModule : IModule
     {
         public void Register(IUnityContainer container)
         {
