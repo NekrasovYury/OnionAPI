@@ -1,8 +1,10 @@
 using System.Web.Http;
 using DI;
 using DI.Models;
-using Unity;
+
 using Unity.WebApi;
+using Microsoft.Practices.Unity;
+//using Unity;
 
 namespace OnionAPI
 {
