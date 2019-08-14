@@ -9,7 +9,10 @@ namespace Infastructure.Interface
 {
     public interface IDataRepository
     {
-        IList<InfastructureCard> GetCard();
-        InfastructureCard GetCard(int userId);
+        List<InfastructureUsers> GetUsers();
+        List<InfastructureCard> GetCards(int userId);
+        void AddNewCard(InfastructureCard card, int userId);
+        void DeleteCard(int userId, int cardId);
+        
     }
 }

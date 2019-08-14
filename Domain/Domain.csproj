@@ -43,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IDataInterface.cs" />
+    <Compile Include="Interface\ILogService.cs" />
     <Compile Include="Models\DomainCards.cs" />
     <Compile Include="Models\DomainUsers.cs" />
+    <Compile Include="Models\RequestInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

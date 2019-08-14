@@ -43,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IDataRepository.cs" />
+    <Compile Include="Interface\IlogRepository.cs" />
     <Compile Include="Models\InfastructureCard.cs" />
     <Compile Include="Models\InfastructureUsers.cs" />
+    <Compile Include="Models\ReqestLogEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

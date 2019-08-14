@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DomainService\DataService.cs" />
+    <Compile Include="DomainService\LogService.cs" />
     <Compile Include="Maper\InfastructureToDomainServiceMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

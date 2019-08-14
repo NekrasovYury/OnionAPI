@@ -118,8 +118,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\RequestLogEntryConfiguration.cs" />
+    <Compile Include="Configuration\UserConfiguration.cs" />
+    <Compile Include="Context\MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\FakeDataRepositories.cs" />
+    <Compile Include="Repositories\LogRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Infastructure\Infastructure.csproj">
@@ -131,5 +135,6 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

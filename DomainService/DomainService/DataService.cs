@@ -19,13 +19,18 @@ namespace DomainService.DomainService
             _dataRepository = dataRepository;
         }
 
-        public IList<DomainCards> GetCard()
-        {
-            var a = _dataRepository.GetCard();
-            return a.Select(_=>_.ToDomain()).ToList(); 
-        }
+        //public IList<DomainCards> GetCard()
+        //{
+        //    //var a = _dataRepository.();
+        //    //return a.Select(_=>_.ToDomain()).ToList(); 
+        //}
 
         public DomainCards GetCard(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IList<DomainCards> GetCard()
         {
             throw new NotImplementedException();
         }
