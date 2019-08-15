@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using OnionAPI.Attributes;
 using System.Web.Http;
 
 namespace OnionAPI
@@ -10,7 +8,10 @@ namespace OnionAPI
         public static void Register(HttpConfiguration config)
         {
             // Конфигурация и службы веб-API
+            config.Filters.Add(new ActionFilter());
+            config.Filters.Add(new ExeptionFilter());
 
+           
             // Маршруты веб-API
             config.MapHttpAttributeRoutes();
 
